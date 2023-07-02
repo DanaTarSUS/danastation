@@ -21053,6 +21053,9 @@
 /obj/stool/chair/office/yellow{
 	dir = 8
 	},
+/obj/landmark/start{
+	name = "Quartermaster"
+	},
 /turf/simulated/floor/yellow/side{
 	dir = 10
 	},
@@ -21348,12 +21351,6 @@
 /area/station/quartermaster/storage)
 "bCM" = (
 /obj/disposalpipe/segment,
-/turf/simulated/floor/grime,
-/area/station/quartermaster/storage)
-"bCN" = (
-/obj/landmark/start{
-	name = "Quartermaster"
-	},
 /turf/simulated/floor/grime,
 /area/station/quartermaster/storage)
 "bCO" = (
@@ -44368,6 +44365,7 @@
 	dir = 4;
 	name = "Quartermaster's Office"
 	},
+/obj/access_spawn/engineering,
 /turf/simulated/floor/orangeblack,
 /area/station/quartermaster/storage)
 "vEy" = (
@@ -82443,7 +82441,7 @@ byj
 buG
 bAq
 buG
-bCN
+buJ
 rbe
 kwf
 vDB
